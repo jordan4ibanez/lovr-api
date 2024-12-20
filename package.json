@@ -1,6 +1,6 @@
 {
   "name": "lovr-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "LOVR API typescript declaration.",
   "main": "lovr-api.d.ts",
   "scripts": {
@@ -19,7 +19,6 @@
   "license": "MIT",
   "dependencies": {
     "lua-types": "^2.13.1",
-    "luajit-ffi": "^1.0.2",
     "typescript": "^5.7.2",
     "typescript-to-lua": "^1.28.1"
   }
