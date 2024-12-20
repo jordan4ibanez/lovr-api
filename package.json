@@ -18,6 +18,9 @@
   "author": "jordan4ibanez",
   "license": "MIT",
   "dependencies": {
-    "luajit-ffi": "^1.0.1"
+    "lua-types": "^2.13.1",
+    "luajit-ffi": "^1.0.2",
+    "typescript": "^5.7.2",
+    "typescript-to-lua": "^1.28.1"
   }
 }
