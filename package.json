@@ -1,0 +1,23 @@
+{
+  "name": "lovr-api",
+  "version": "1.0.0",
+  "description": "LOVR API typescript declaration.",
+  "main": "lovr-api.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lovr",
+    "lua",
+    "luajit",
+    "ffi",
+    "api",
+    "tstl",
+    "gamedev"
+  ],
+  "author": "jordan4ibanez",
+  "license": "MIT",
+  "dependencies": {
+    "luajit-ffi": "^1.0.1"
+  }
+}
