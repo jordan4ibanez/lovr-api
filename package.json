@@ -1,6 +1,6 @@
 {
   "name": "lovr-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LOVR API typescript declaration.",
   "main": "lovr-api.d.ts",
   "scripts": {
