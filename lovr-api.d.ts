@@ -1361,6 +1361,7 @@ declare interface Image extends Object {
   mapPixel(callback: (x: number, y: number, r: number, g: number, b: number, a: number) => LuaMultiReturn<[r: number, g: number, b: number, a: number]>, x: number, y: number, w: number, h: number): void;
   paste(source: Image, x: number, y: number, fromX: number, fromY: number, width: number, height: number): void;
   setPixel(x: number, y: number, r: number, g: number, b: number, a: number): void;
+  getPointer(): LuaUserdata;
 }
 
 declare interface Shape extends Object {
