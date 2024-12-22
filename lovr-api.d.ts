@@ -2098,7 +2098,7 @@ declare namespace lovr {
   }
 
   namespace physics {
-    function newWorld(xg: number, yg: number, zg: number, allowSleep: boolean, tags: LuaTable): World;
+    function newWorld(xg?: number, yg?: number, zg?: number, allowSleep?: boolean, tags?: LuaTable): World;
     function newBoxShape(width: number, height: number, depth: number): BoxShape;
     function newCapsuleShape(radius: number, length: number): CapsuleShape;
     function newCylinderShape(radius: number, length: number): CylinderShape;
